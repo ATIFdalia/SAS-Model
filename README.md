@@ -43,15 +43,15 @@ Install dependencies via pip:
 ```bash
 pip install torch numpy scikit-learn pandas
 
-## Customization
+Customization
 Hyperparameters
 You can customize the following hyperparameters in the script via argparse:
 
--**hidden_dim: Number of neurons in the hidden layer.
--**latent_dim: Size of the latent representation.
--**alpha: Weight for the classification loss in the total loss calculation.
--**num_epochs: Number of training epochs.
--**learning_rate: Learning rate for the optimizer.
+hidden_dim: Number of neurons in the hidden layer.
+latent_dim: Size of the latent representation.
+alpha: Weight for the classification loss in the total loss calculation.
+num_epochs: Number of training epochs.
+learning_rate: Learning rate for the optimizer.
 
 
 Modify these parameters directly in the script or pass them as command-line arguments when running main.py. For example:

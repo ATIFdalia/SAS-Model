@@ -23,11 +23,10 @@ The model consists of:
 - **Reconstruction Loss:** Measures the difference between the original input and its reconstruction (`MSELoss`).
 - **Classification Loss:** Cost-sensitive weighted binary cross-entropy loss (`BCEWithLogitsLoss`).
 
-The total loss is a weighted sum of reconstruction and classification losses:
+The total loss is a weighted sum of reconstruction and classification losses: 
 
-\[
-\text{Total Loss} = \text{Reconstruction Loss} + \alpha \times \text{Classification Loss}
-\]
+![Total Loss Equation](link_to_equation_image)
+
 
 ---
 
